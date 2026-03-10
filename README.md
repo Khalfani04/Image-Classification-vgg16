@@ -14,9 +14,13 @@ VGG16 (frozen, ImageNet weights)
   └── Dense(N_CLASSES, softmax)
 
 How to Run
+
 bashgit clone https://github.com/Khalfani04/image-classification-vgg16
+
 cd image-classification-vgg16
+
 pip install tensorflow matplotlib
+
 jupyter notebook Assignment_3_Cosc_31000.ipynb
 
 Dataset should be organized in train/, val/, and test/ subdirectories by class.
