@@ -26,14 +26,23 @@ jupyter notebook Assignment_3_Cosc_31000.ipynb
 Dataset should be organized in train/, val/, and test/ subdirectories by class.
 
 Training Details
+
 Setting               Value
+
 Optimizer             Adam (lr=1e-4)
+
 Loss                  Categorical Crossentropy
+
 Epochs                50
+
 Augmentation          Rotation, flip, zoom, shift
+
 Base Model            VGG16 (frozen)
 
 What I Learned:
+
 How transfer learning dramatically reduces training time and data requirements
+
 How data augmentation prevents overfitting on small datasets
+
 How to interpret training vs. validation accuracy/loss curves to diagnose model behaviour
