@@ -3,9 +3,13 @@ This project demonstrates transfer learning by adapting VGG16 — a deep CNN pre
 
 Model Architecture
 VGG16 (frozen, ImageNet weights)
+  
   └── Flatten
+  
   └── Dense(256, relu)
+  
   └── Dropout(0.5)
+  
   └── Dense(N_CLASSES, softmax)
 
 How to Run
